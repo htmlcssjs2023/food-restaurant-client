@@ -25,6 +25,9 @@ const PopularMenu = () => {
                 )
             }
            </div>
+            <div className="card-actions pt-10">
+                 <button className="btn btn-outline mx-auto uppercase border-x-0 border-t-0 border-r-0 border-l-0 border-b-4" >view full menu</button>
+            </div>
         </section>
     );
 };
