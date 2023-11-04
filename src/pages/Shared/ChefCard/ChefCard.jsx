@@ -4,7 +4,7 @@ const ChefCard = ({food}) => {
 
   return (
     <div>
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card w-96 bg-base-100 mb-10">
         <figure className="px-10 pt-10">
           <img
             src={image}

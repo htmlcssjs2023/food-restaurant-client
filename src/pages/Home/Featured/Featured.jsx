@@ -17,7 +17,7 @@ const Featured = () => {
                 subHeading={"should try"}
                 mainHeading={"chef recomends"}
             ></SectionTitle>
-            <div className="grid grid-cols-3 grid-rows-1">
+            <div className="grid grid-cols-3 mb-10">
               {
                 foodDetails.map(food => <ChefCard key={food._id} food={food}></ChefCard>)
               }

@@ -4,14 +4,13 @@ const SingleContent = () => {
   return (
     <div>
       <div
-        className="hero mb-8 mt-8"
+        className="hero mb-8 mt-8 bg-fixed bg-center bg-cover bg-no-repeat"
         style={{
           backgroundImage:
             `url(${ChefService})`,
             height:"50vh",
         }}
       >
-        <div className="hero-overlay bg-opacity-60 "></div>
         <div className="hero-content m-10 text-center text-neutral-content">
           <div className=" border bg-white text-[#555] p-6">
             <h1 className="mb-5 text-3xl font-bold uppercase">Bistro Boss</h1>
